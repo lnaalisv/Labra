@@ -1,0 +1,6 @@
+F:\Programming\GitHub\Labra\cs\LabraCS\LabraCS\bin\Debug\LabraCS.exe.config
+F:\Programming\GitHub\Labra\cs\LabraCS\LabraCS\obj\Debug\LabraCS.csprojResolveAssemblyReference.cache
+F:\Programming\GitHub\Labra\cs\LabraCS\LabraCS\bin\Debug\LabraCS.exe
+F:\Programming\GitHub\Labra\cs\LabraCS\LabraCS\bin\Debug\LabraCS.pdb
+F:\Programming\GitHub\Labra\cs\LabraCS\LabraCS\obj\Debug\LabraCS.exe
+F:\Programming\GitHub\Labra\cs\LabraCS\LabraCS\obj\Debug\LabraCS.pdb
