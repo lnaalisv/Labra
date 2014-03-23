@@ -380,7 +380,59 @@ namespace LabraCS
 
         public static void test9(string[] args)
         {
+            if (args.Length != 4)
+            {
+                Console.WriteLine("Invalid number of arguments for test7");
+                return;
+            }
 
+            string file = args[1];
+            int test_times = Convert.ToInt32(args[2]);
+            string output = args[3];
+
+            Random rand = new Random();
+            long mem1 = memory_get_usage();
+            long mem2 = 0;
+
+            Stopwatch sw = new Stopwatch();
+            sw.Start();
+            for (int i = 0; i < test_times; i++)
+            {
+                string[] lines = File.ReadAllLines(file);
+                List<Person> persons = new List<Person>();
+                for (int x = 0; x < lines.Length - 1; x++ )
+                {
+                    string line = lines[x];
+                    string[] sepa = new string[1];
+                    sepa[0] = ", ";
+                    string[] attrs = line.Split(sepa,StringSplitOptions.RemoveEmptyEntries);
+                    string value = attrs[14].Trim();
+                    if (value != ">50K")
+                    {
+                        //Console.WriteLine("Value is not over 50k " + value);
+                        continue;
+                    }
+                    else
+                    {
+                       // Console.WriteLine("Value is OVER 50k " + value);
+                    }
+                    Person person = new Person();
+                    person.age = Convert.ToInt32(attrs[0]);
+                    person.education = attrs[3];
+                    person.race = attrs[8];
+                    person.gender = attrs[9];
+                    person.nationality = attrs[13];
+                    persons.Add(person);
+                }
+                string json_string = JsonConvert.SerializeObject(persons);
+                File.WriteAllText(output, json_string);
+                mem2 = memory_get_usage();
+            }
+
+            sw.Stop();
+            double delta = sw.Elapsed.TotalMilliseconds * 1000;
+            long mem3 = memory_get_usage();
+            Console.WriteLine(delta + ";" + mem1 + ";" + mem2 + ";" + mem3);
         }
     }
 }

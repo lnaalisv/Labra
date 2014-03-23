@@ -7,3 +7,7 @@ F:\Programming\GitHub\Labra\cs\LabraCS\LabraCS\obj\Debug\LabraCS.pdb
 F:\Programming\GitHub\Labra\cs\LabraCS\LabraCS\bin\Debug\Newtonsoft.Json.dll
 F:\Programming\GitHub\Labra\cs\LabraCS\LabraCS\bin\Debug\Newtonsoft.Json.pdb
 F:\Programming\GitHub\Labra\cs\LabraCS\LabraCS\bin\Debug\Newtonsoft.Json.xml
+F:\Programming\GitHub\Labra\cs\LabraCS\LabraCS\bin\Debug\LabraCS.exe.manifest
+F:\Programming\GitHub\Labra\cs\LabraCS\LabraCS\bin\Debug\LabraCS.application
+F:\Programming\GitHub\Labra\cs\LabraCS\LabraCS\obj\Debug\LabraCS.exe.manifest
+F:\Programming\GitHub\Labra\cs\LabraCS\LabraCS\obj\Debug\LabraCS.application

@@ -1,0 +1,12 @@
+F:\Programming\GitHub\Labra\cs\LabraCS\LabraCS\bin\Release\LabraCS.exe.config
+F:\Programming\GitHub\Labra\cs\LabraCS\LabraCS\bin\Release\LabraCS.exe.manifest
+F:\Programming\GitHub\Labra\cs\LabraCS\LabraCS\bin\Release\LabraCS.application
+F:\Programming\GitHub\Labra\cs\LabraCS\LabraCS\bin\Release\LabraCS.exe
+F:\Programming\GitHub\Labra\cs\LabraCS\LabraCS\bin\Release\LabraCS.pdb
+F:\Programming\GitHub\Labra\cs\LabraCS\LabraCS\bin\Release\Newtonsoft.Json.dll
+F:\Programming\GitHub\Labra\cs\LabraCS\LabraCS\bin\Release\Newtonsoft.Json.pdb
+F:\Programming\GitHub\Labra\cs\LabraCS\LabraCS\bin\Release\Newtonsoft.Json.xml
+F:\Programming\GitHub\Labra\cs\LabraCS\LabraCS\obj\Release\LabraCS.exe.manifest
+F:\Programming\GitHub\Labra\cs\LabraCS\LabraCS\obj\Release\LabraCS.application
+F:\Programming\GitHub\Labra\cs\LabraCS\LabraCS\obj\Release\LabraCS.exe
+F:\Programming\GitHub\Labra\cs\LabraCS\LabraCS\obj\Release\LabraCS.pdb
