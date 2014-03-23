@@ -4,3 +4,6 @@ F:\Programming\GitHub\Labra\cs\LabraCS\LabraCS\bin\Debug\LabraCS.exe
 F:\Programming\GitHub\Labra\cs\LabraCS\LabraCS\bin\Debug\LabraCS.pdb
 F:\Programming\GitHub\Labra\cs\LabraCS\LabraCS\obj\Debug\LabraCS.exe
 F:\Programming\GitHub\Labra\cs\LabraCS\LabraCS\obj\Debug\LabraCS.pdb
+F:\Programming\GitHub\Labra\cs\LabraCS\LabraCS\bin\Debug\Newtonsoft.Json.dll
+F:\Programming\GitHub\Labra\cs\LabraCS\LabraCS\bin\Debug\Newtonsoft.Json.pdb
+F:\Programming\GitHub\Labra\cs\LabraCS\LabraCS\bin\Debug\Newtonsoft.Json.xml
