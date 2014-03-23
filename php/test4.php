@@ -14,20 +14,18 @@
 	$lines = file_get_contents($file);
 	$mem1 = memory_get_usage(true);
 	
+	$before = microtime(true);
+	
 	for($i = 0 ; $i < $test_times ; $i++) {
-		$before = microtime(true);
 		
 		$object = json_decode($lines);
-		//echo "object size :".count($object)."\n";
-		
-		$after = microtime(true);
+
 		$mem2 = memory_get_usage(true);
 		
-		$delta_time = $after-$before;
-		$delta_time_c += $delta_time;
-		//echo "Test $i in $delta seconds where $before and $after\n";
 	}
+	$after = microtime(true);
+	$delta_time = ($after-$before)*1000*1000;
 	$mem3 = memory_get_usage(true);
 	$delta_mem = $mem3-$mem1;
-	echo "$delta_time_c;$mem1;$mem2;$mem3;$delta_mem\n";
+	echo "$delta_time;$mem1;$mem2;$mem3;$delta_mem\n";
 ?>

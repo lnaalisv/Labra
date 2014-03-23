@@ -9,29 +9,20 @@
 	$max_var = $argv[3];
 	$matrix_size = $argv[4];
 	
-	$delta_time_c = 0;
-	$delta_mem_c = 0;
 	$mem3;
 	$mem1 = memory_get_usage(true);
+	$before = microtime(true);
 	for($i = 0 ; $i < $test_times ; $i++) {
 		// init test
 		$m1 = get_matrix($matrix_size,$matrix_size,$min_var,$max_var);
 		$m2 = get_matrix($matrix_size,$matrix_size,$min_var,$max_var);
-		
-		$before = microtime(true);
-		
 		matrixmult($m1,$m2);
-		
-		$after = microtime(true);
-		
-		$delta_time = $after-$before;
-		$delta_time_c += $delta_time;
-
-		//echo "Test $i in $delta seconds where $before and $after\n";
 	}
+	$after = microtime(true);
+	$delta_time = ($after-$before)*1000*1000;
 	$mem3 = memory_get_usage(true);
 	$delta_mem = $mem3-$mem1;
-	echo "$delta_time_c;$mem1;$mem2;$mem3;$delta_mem\n";
+	echo "$delta_time;$mem1;$mem2;$mem3;$delta_mem\n";
 	
 	function get_matrix($x,$y,$min_var,$max_var) {
 		$m = array();
