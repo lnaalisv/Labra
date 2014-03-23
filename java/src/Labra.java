@@ -434,7 +434,7 @@ public class Labra {
 			}
 			List l1 = new LinkedList();
 	
-			for(int x = 0 ; x < lines.length ; x++) {
+			for(int x = 0 ; x < lines.length - 1 ; x++) {
 				String line = lines[x];
 				String[] attr = line.split(", ");
 				if(!attr[14].equals(">50K")) {
